@@ -11,8 +11,8 @@ contract SimpleTokenTest is Test {
     address spender = address(1);
     address user = address(2);
     // Test params
-    string public name = "My Token";
-    string public symbol = "MTKN";
+    string public name = "Simple Token";
+    string public symbol = "STKN";
     uint256 public decimals = 18;
     uint256 amount = 1000 * 1e18;
     uint256 public initialSupply = 1000 * 1e18;
@@ -26,8 +26,8 @@ contract SimpleTokenTest is Test {
     /**
      *  @dev Tests the relevant initial state of the contract.
      *
-     *  - Token name is 'My Token'
-     *  - Token symbol is 'MTKN'
+     *  - Token name is 'Simple Token'
+     *  - Token symbol is 'STKN'
      *  - Token initail supply is '1000000000000000000000'
      *  - Token decimals is '18'
      */
